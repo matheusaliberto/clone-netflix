@@ -4,16 +4,26 @@ ul{list-style: none;}
 body{height: 150vh;}
 
 @media screen and (min-width: 600px){
-    
+    /* CABECALHO */
+    .menu-esq{width: 50%; display: flex; flex-flow: row nowrap; }
+    .menu-esq ul{visibility: visible !important;}
+    /*INICIO*/
+    .inicio img{width: 100%; height: 100vh;}   
 }
 /* CABECALHO */
 header{display: flex; height: 10vh; width: 90%; justify-content: space-between; padding:0 5%; position: fixed;}
-.menu-esq{padding-top: 5px; width: 50%;}
-.menu-esq img{height: 70%;}
-.menu-esq ul{display: flex; flex-flow: row nowrap; visibility: hidden;}
-.menu-esq ul li{ margin-left: 5px;}
-.menu-dir{text-align: right; padding-top: 5px; width: 50%;}
-.menu-dir button{width: 35px; height: 35px; font-size: 1.2em; margin: 0; padding: 0; border: none; background-color: transparent;}
+.menu-esq{width: 50%; height: 100%;}
+.menu-esq img{height: 100%;}
+.menu-esq ul{display: flex; flex-flow: row nowrap; visibility: hidden; align-items: center;}
+.menu-esq ul li{ margin-left: 15px; font-size: 1.2em; font-weight: bolder; color: white;}
+.menu-esq ul li:hover{color: rgb(211, 211, 211); cursor: pointer;}
 
-/*BANNER*/
-.banner img{width: 100%; height: 100vh;}
+.menu-dir{text-align: right; width: 50%;}
+.menu-dir ul{display: flex; flex-flow: row nowrap; align-items: center;justify-content: flex-end; height: 100%; font-size: 1.2em;}
+.menu-dir ul li{ margin-left: 15px; font-weight: bolder; color: white;}
+.menu-dir ul li:hover{color: rgb(211, 211, 211); cursor: pointer;}
+
+/*INICIO*/
+.inicio{background: black url('../imagens/banner-desktop.jpg')center top/100% no-repeat; width: 100%; height: 45vh; display: flex; flex-direction: column; justify-content: center;}
+.logo-banner{width: 20%;}
+.sinopse{color:white; width: 50%;}
