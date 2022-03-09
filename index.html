@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="estilo/style.css">
 </head>
 <body>
@@ -44,29 +45,32 @@
         </section>
         <section class="continue">
             <h2>Continue assistindo</h2>
-            <div class="imagens">
-                <img src="imagens/imgs-filmes-series/vf1.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/pb.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vkg.jpg" alt="">
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf1.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/bb.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/pb.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/lws.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vkg.jpg" alt=""></div
             </div>
         </section>
         <section class="recomendacao">
             <h2>Porque você assitiu Velozes e Furiosos</h2>
-            <div class="imagens">
-                <img src="imagens/imgs-filmes-series/vf2.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vf3.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vf4.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vf5.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vf6.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vf7.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vf8.jpg" alt="">
-                <img src="imagens/imgs-filmes-series/vf9.jpg" alt="">
+            <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf2.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf3.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf4.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf5.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf6.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf7.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf8.jpg" alt=""></div>
+                <div class="carousel-cell"><img src="imagens/imgs-filmes-series/vf9.jpg" alt=""></div>
             </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="script/script.js"></script>
 </body>
 </html>
